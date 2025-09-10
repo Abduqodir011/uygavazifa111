@@ -1,0 +1,117 @@
+.novbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.novbar-menus{
+    display: flex;
+    gap: 30px;
+}
+.novbar-btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #494949;
+    color: white;
+}
+header{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.hero-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-desc{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: black;
+    line-height: 20px;
+}
+.hero-title{
+    font-size: 70px;
+    color: black;
+}
+.hero-btn{
+    background-color: #2C9553;
+    width: 200px;
+    height: 64px;
+    color: white;
+    border-radius: 50px;
+}
+.us-cards{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+.carr{
+  display: flex;
+}
+.s-card h3{
+    font-size: 34px;
+    color: black;
+    padding-bottom: 30px;
+    
+}
+.s-card p{
+    color: black;
+    font-size: 20px;
+    line-height: 18px;
+    padding-bottom: 30px;
+}
+.ser-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+.s-btn{
+    width: 200px;
+    height: 60px;
+    background-color: #2C9553;
+    color: white;
+    border-radius: 30px;
+}
+.foter-cards{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.foter-card h2{
+   padding-bottom: 30px;
+   padding-top: 20px;
+   font-size: 24px;
+   color: black;
+}
+.foter-card p{
+    padding-bottom: 30px;
+    color: black;
+    font-size: 18px;
+}
+.s-titl{
+    font-size: 24px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.s-des{
+   padding-bottom: 5px;
+   padding-top: 5px;
+   font-size: 18px;
+   color: black;
+}
+footer{
+    background-color: #FCFCFC;
+}

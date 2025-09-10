@@ -7,6 +7,12 @@
     display: flex;
     gap: 30px;
 }
+
+@media (max-width:600px) {
+    .novbar-menus {
+        display: none;
+    }
+}
 .novbar-btn{
     width: 150px;
     height: 30px;
@@ -23,11 +29,32 @@ header{
     align-items: center;
     justify-content: space-around;
 }
+.rasm{
+    width: 100%;
+}
+@media (max-width:1150px) {
+    .hero-cards{
+        flex-wrap: wrap;
+    }
+}
 .hero-desc{
     padding-top: 60px;
     padding-bottom: 40px;
     color: black;
     line-height: 20px;
+}
+@media (max-width:700px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+}
+.rasm1{
+    width: 100%;
+}
+@media (max-width:1000px) {
+    .ser-cards{
+        flex-wrap: wrap;
+    }
 }
 .hero-title{
     font-size: 70px;
@@ -88,6 +115,11 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
+}
+@media (max-width:700px) {
+    .foter-cards{
+        flex-wrap: wrap;
+    }
 }
 .foter-card h2{
    padding-bottom: 30px;
